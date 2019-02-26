@@ -189,7 +189,7 @@
         <equinox.groupId>org.eclipse.platform</equinox.groupId>
         <equinox.artifactId>org.eclipse.osgi</equinox.artifactId>
         <equinox.version>3.13.200</equinox.version>
-        <bndlib.version>2.4.0</bndlib.version>
+        <bndlib.version>4.1.0</bndlib.version>
         <equinox.region.version>1.2.101.v20150831-1342</equinox.region.version>
         <equinox.coordinator.version>1.1.0.v20120522-1841</equinox.coordinator.version>
 
@@ -285,8 +285,8 @@
         <pax.exam.version>4.13.1</pax.exam.version>
         <pax.logging.version>1.10.1</pax.logging.version>
         <pax.base.version>1.5.0</pax.base.version>
-        <pax.swissbox.version>1.8.3</pax.swissbox.version>
-        <pax.url.version>2.6.1</pax.url.version>
+        <pax.swissbox.version>1.8.4-SNAPSHOT</pax.swissbox.version>
+        <pax.url.version>2.6.2-SNAPSHOT</pax.url.version>
         <pax.web.version>7.2.8</pax.web.version>
         <pax.tinybundle.version>3.0.0</pax.tinybundle.version>
         <pax.jdbc.version>1.3.4</pax.jdbc.version>
@@ -1036,7 +1036,7 @@
 
             <dependency>
                 <groupId>biz.aQute.bnd</groupId>
-                <artifactId>bndlib</artifactId>
+                <artifactId>biz.aQute.bndlib</artifactId>
                 <version>${bndlib.version}</version>
             </dependency>
             <dependency>

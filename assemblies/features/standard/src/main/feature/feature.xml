@@ -1455,7 +1455,10 @@ org.apache.felix.eventadmin.AddSubject=true
     </feature>
 
     <feature name="wrap" description="Wrap URL handler" version="${pax.url.version}">
-        <bundle start-level="5">mvn:org.ops4j.pax.url/pax-url-wrap/${pax.url.version}/jar/uber</bundle>
+      <bundle start-level="5">mvn:org.osgi/org.osgi.util.promise/1.1.1</bundle>
+      <bundle start-level="5">mvn:org.osgi/org.osgi.service.repository/1.1.0</bundle>
+      <bundle start-level="5">mvn:org.osgi/org.osgi.util.function/1.1.0</bundle>
+      <bundle start-level="5">mvn:org.ops4j.pax.url/pax-url-wrap/${pax.url.version}/jar/uber</bundle>
     </feature>
 
     <feature name="profile" description="Profiles support" version="${project.version}">
